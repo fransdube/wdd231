@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course home page for WDD 231">
+    <meta name="author" content="MF Dube">
+    <title>WDD 231 - Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css" media="(min-width: 768px)">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h3>WDD 231</h3>
+        </div>
+        <nav>
+            <button id="hamburger">&#9776;</button>
+            <ul id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">GitHub Profile</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Frans, and I'm passionate about technology and design. I enjoy solving problems through
+                coding and creating beautiful, user-friendly websites. In my free time, I love experimenting with new
+                programming languages, reading up on the latest tech trends, and exploring nature through hiking.
+
+                I believe in continuous learning and always look for ways to improve both personally and professionally.
+                One of my biggest goals is to work on projects that have a positive impact on people’s lives.</p>
+        </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <div id="course-filters">
+                <button onclick="displayCourses('all')">All</button>
+                <button onclick="displayCourses('WDD')">WDD</button>
+                <button onclick="displayCourses('CSE')">CSE</button>
+            </div>
+            <div id="course-list"></div>
+            <p>Total Credits: <span id="total-credits"></span></p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: mfd@emailexample.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> | MF Dube | South Africa</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+/* Navigation Styles for Larger Screens */
+@media (min-width: 768px) {
+    #hamburger {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        position: static;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    #nav-menu li a {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Main Content Grid for Larger Screens */
+@media (min-width: 768px) {
+    #course-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Typography and Spacing for Larger Screens */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .course-card h3 {
+        font-size: 1.5rem;
+    }
+}
