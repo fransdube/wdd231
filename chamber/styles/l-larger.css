@@ -1,0 +1,12 @@
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .hero .cta-button {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .spotlight-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

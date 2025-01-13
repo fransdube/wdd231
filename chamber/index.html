@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Home Page">
+    <meta name="author" content="MF Dube">
+    <title>Johannesburg Chamber of Commerce</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/jhb.ico" type="image/x-icon">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Johannesburg Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yourwebsite.com/images/social-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/index.html">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/l-larger.css">
+</head>
+
+<body>
+    <header>
+        <h1>Johannesburg Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/jhg.webp" alt="Johannesburg Cityscape">
+            <a href="join.html" class="cta-button">Join the Chamber</a>
+        </section>
+
+        <!-- Current Events Section -->
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Join us for our annual networking event on October 15th!</p>
+        </section>
+
+        <!-- Weather Section -->
+        <section class="weather">
+            <h2>Weather</h2>
+            <div id="weather-data">
+                <!-- Weather data will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Member Spotlights Section -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-cards">
+                <!-- Spotlight cards will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright-year"></span> | MF Dube | WDD 230</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+    <script src="scripts/home.js"></script>
+</body>
+
+</html>
