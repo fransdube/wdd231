@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#view-toggle {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#view-toggle button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+#member-cards.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#member-cards.list {
+    display: block;
+}
+
+.member-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.member-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

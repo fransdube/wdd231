@@ -1,0 +1,11 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    #member-cards.grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
