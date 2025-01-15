@@ -102,6 +102,7 @@ body {
 /* Hero Section */
 .hero {
     background: url('images/hero.webp') no-repeat center center/cover;
+    background: url('images/hero.jpg') no-repeat center center/cover;
     color: white;
     padding: 4rem 2rem;
     text-align: center;
