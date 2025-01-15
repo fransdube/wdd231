@@ -1,4 +1,4 @@
-[
+ria[
     {
         "name": "Mountain Trail",
         "date": "2025-11-15",
@@ -68,7 +68,7 @@
         "date": "2025-11-29",
         "difficulty": "Hard",
         "duration": "5 hours",
-        "location": "Sunset Ridge",
+        "location": "Pretoria",
         "description": "A steep climb with breathtaking sunset views."
     },
     {
@@ -76,7 +76,7 @@
         "date": "2025-11-15",
         "difficulty": "Moderate",
         "duration": "7 hours",
-        "location": "Rocky Mountains",
+        "location": "Midrand",
         "description": "A challenging hike with stunning views."
     },
     {
@@ -84,7 +84,7 @@
         "date": "2025-11-22",
         "difficulty": "Easy",
         "duration": "3 hours",
-        "location": "Green Valley",
+        "location": "Johannesburg",
         "description": "A peaceful walk through lush forests."
     },
     {
@@ -92,7 +92,7 @@
         "date": "2025-11-29",
         "difficulty": "Hard",
         "duration": "2 hours",
-        "location": "Sunset Ridge",
+        "location": "Pretoria",
         "description": "A steep climb with breathtaking sunset views."
     }
 ]
