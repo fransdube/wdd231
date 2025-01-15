@@ -1,0 +1,52 @@
+/* Color Schema */
+:root {
+    --primary-color: #2A9D8F;
+    --secondary-color: #264653;
+    --background-color: #f4f4f4;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

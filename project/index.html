@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Johannesburg eBiking Club - Your hub for regional e-biking information and membership.">
+    <title>Johannesburg eBiking Club</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/fav.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Johanesburg eBiking Club</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="membership.html">Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to the Johanesburg eBiking Club!</h2>
+            <p>Explore the best trails and e-bike recommendations in Gauteng, SA.</p>
+        </section>
+
+        <section>
+            <h2>Featured Trails</h2>
+            <div id="trails"></div> <!-- Dynamic content will be inserted here -->
+        </section>
+
+        <section>
+            <h2>Join Us</h2>
+            <form id="membershipForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Johanesburg eBiking Club</p>
+    </footer>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>
