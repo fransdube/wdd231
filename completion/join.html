@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Trailblazers Hiking Club</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">Trailblazers Hiking Club</a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="schedule.html">Hike Schedule</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Membership Sign-Up Section -->
+        <section>
+            <h1>Join the Trailblazers Hiking Club</h1>
+            <p>Become a member today and enjoy exclusive benefits, connect with fellow hikers, and explore the great
+                outdoors!</p>
+        </section>
+
+        <!-- Membership Benefits -->
+        <section>
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li><strong>Exclusive Hikes:</strong> Access to members-only hikes in stunning locations.</li>
+                <li><strong>Discounts on Gear:</strong> Enjoy discounts at partner outdoor gear stores.</li>
+                <li><strong>Community Events:</strong> Join workshops, social events, and group hikes.</li>
+                <li><strong>Expert Guidance:</strong> Learn from experienced hikers and guides.</li>
+                <li><strong>Support Conservation:</strong> Contribute to trail maintenance and environmental
+                    initiatives.</li>
+            </ul>
+        </section>
+
+        <!-- Membership Sign-Up Form -->
+        <section>
+            <h2>Sign Up Now</h2>
+            <form id="join-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="experience">Hiking Experience:</label>
+                <select id="experience" name="experience">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+                <button type="submit">Join Now</button>
+            </form>
+        </section>
+
+        <!-- Contact Form for Inquiries -->
+        <section>
+            <h2>Have Questions? Contact Us!</h2>
+            <form id="contact-form">
+                <label for="contact-name">Your Name:</label>
+                <input type="text" id="contact-name" name="contact-name" required>
+
+                <label for="contact-email">Your Email:</label>
+                <input type="email" id="contact-email" name="contact-email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Trailblazers Hiking Club</p>
+    </footer>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>
