@@ -3,62 +3,71 @@
         "name": "Mountain Trail",
         "date": "2025-11-15",
         "difficulty": "Moderate",
-        "location": "Rocky Mountains",
+        "duration": "3 hours",
+        "location": "Johannesburg",
         "description": "A challenging hike with stunning views."
     },
     {
         "name": "Forest Walk",
         "date": "2025-11-22",
         "difficulty": "Easy",
-        "location": "Green Valley",
+        "duration": "2 hours",
+        "location": "Pretoria",
         "description": "A peaceful walk through lush forests."
     },
     {
         "name": "Sunset Peak",
         "date": "2025-11-29",
         "difficulty": "Hard",
-        "location": "Sunset Ridge",
+        "duration": "1.5 hours",
+        "location": "Johannesburg",
         "description": "A steep climb with breathtaking sunset views."
     },
     {
         "name": "Pretoria Trail",
         "date": "2025-11-15",
         "difficulty": "Moderate",
-        "location": "Rocky Mountains",
+        "duration": "5 hours",
+        "location": "Johannesburg",
         "description": "A challenging hike with stunning views."
     },
     {
         "name": "Forest Run",
         "date": "2025-11-22",
         "difficulty": "Easy",
-        "location": "Green Valley",
+        "duration": "3 hours",
+        "location": "Johannesburg",
         "description": "A peaceful walk through lush forests."
     },
     {
         "name": "Jog Peak",
         "date": "2025-11-29",
         "difficulty": "Hard",
-        "location": "Sunset Ridge",
+        "duration": "2 hours",
+        "location": "Johannesburg",
         "description": "A steep climb with breathtaking sunset views."
     },
     {
         "name": "Mountain Trailing",
         "date": "2025-11-15",
         "difficulty": "Moderate",
-        "location": "Rocky Mountains",
+        "duration": "1 hours",
+        "location": "Johannesburg",
         "description": "A challenging hike with stunning views."
     },
     {
         "name": "Freinds Walk",
         "date": "2025-11-22",
         "difficulty": "Easy",
-        "location": "Green Valley",
+        "duration": "1 hours",
+        "location": "Johannesburg",
         "description": "A peaceful walk through lush forests."
     },
     {
         "name": "Speed Peak",
         "date": "2025-11-29",
         "difficulty": "Hard",
+        "duration": "5 hours",
         "location": "Sunset Ridge",
         "description": "A steep climb with breathtaking sunset views."
     },
@@ -66,6 +75,7 @@
         "name": "Mountain Run",
         "date": "2025-11-15",
         "difficulty": "Moderate",
+        "duration": "7 hours",
         "location": "Rocky Mountains",
         "description": "A challenging hike with stunning views."
     },
@@ -73,6 +83,7 @@
         "name": "Gem Speed",
         "date": "2025-11-22",
         "difficulty": "Easy",
+        "duration": "3 hours",
         "location": "Green Valley",
         "description": "A peaceful walk through lush forests."
     },
@@ -80,6 +91,7 @@
         "name": "Hide Peak",
         "date": "2025-11-29",
         "difficulty": "Hard",
+        "duration": "2 hours",
         "location": "Sunset Ridge",
         "description": "A steep climb with breathtaking sunset views."
     }
